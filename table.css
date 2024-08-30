@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+} 
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+thead th {
+    background-color: #eef129;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #dddddd;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tbody tr:hover {
+    background-color: #ddd; 
+}
+
+.title {
+    font-weight: bold;
+    background-color: #f9f9f9; /* Slightly different background for titles */
+    color: #333;
+}
+
+td {
+    vertical-align: top; /* Align text at the top */
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #eef129;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

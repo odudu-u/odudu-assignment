@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Navigation Styling */
+nav, button {
+    background-color: #eef129;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ol {
+    list-style-type: style;
+    display: block;
+    justify-content: center;
+}
+
+nav ol li {
+    margin: 0 15px;
+}
+
+nav ol li a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ol li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styling */
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0);
+}
+
+.parent {
+    text-align: center;
+    margin-top: 20px; /* Optional: Adjust as needed */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #eef129;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}

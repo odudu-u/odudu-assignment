@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" type="image/png" href="./assets/logo2.png" sizes="16x16" />
+    <title>Media</title>
+</head>
+<body>
+    <nav aria-label="primary menu">
+        <ul id="#top">
+            <li><a href="#About">About Me</a></li>
+            <li><a href="form.html" target="_blank">Application Form</a> </li>
+            <li><a href="media.html" target="_blank">Media</a></li>
+            <li><a href="table.html" target="_blank">Table of Courses</a></li>
+        </ul>
+      </nav>
+      <header>
+        <h1>COLLECTION OF MEDIA THAT INSPIRE ME.</h1>
+    </header>
+
+    <br/>
+
+    <main>
+
+       <section>
+           <h2>The Neighborhood by Uzo Njoku<h2>
+            <picture class="media" title="The Neighborhood by Uzo Njoku">
+                <source srcset="./assets/large.jpg" media="(min-width: 1024px)">
+                <source srcset="./assets/medium.jpg" media="(min-width: 768px)">
+                <source srcset="./assets/small.JPG" media="(min-width: 480px)">
+                <img src="./assets/small.JPG" alt="A graphic photo of a New York Suburb">
+            </picture>
+        </section>
+        
+
+        <section>
+            <h2>Smooth Criminal by Michael Jackson</h2>
+            <audio class="media" controls title="Smooth Criminal by Michael Jackson">
+                <source src="./assets/Michael-Jackson-Smooth-Criminal.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Captureland by Nabil Elderkin</h2>
+            <!-- <video-->
+                <iframe class="media" width="560" height="315" src="https://www.youtube.com/embed/xg7658iVWmU?si=NgoU6wZZrG4aP1BJ" 
+                title="Captureland by Nabil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- </video> -->
+        </section>
+
+        <div class="parent">
+            <button class="button"><a href="#top">BACK TO TOP</a></button>
+         </div>
+    </main>
+</body>
+</html>
