@@ -56,6 +56,27 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: column;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+    
+    .parent {
+      padding: 10px;
+    }
+  }
+
 /*Secondary Styling*/
 
 element.style {
