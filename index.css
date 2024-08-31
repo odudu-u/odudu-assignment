@@ -2,11 +2,61 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:inherit ;
 }
 
+
 /* Body Styling */
+
+header {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: column;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+    
+    .parent {
+      padding: 10px;
+    }
+  }
+
+.gnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #eef129;
+    padding: 10px;
+}
+
+.gnav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/*--NEW */
+
 body {
+    max-width: 100%;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
